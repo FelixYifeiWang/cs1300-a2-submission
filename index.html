@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Redesign -- Yifei Wang</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1>
+            Responsive Redesign
+        </h1>
+        <div class="text-content">
+            <p>
+                In today's digital age, effective webpage design is essential for businesses, often forming customers' first impressions. 
+                Although design principles are taught in a classroom setting, practical, hands-on experience is indispensable. 
+                This project involves redesigning and reconstructing Chinatown on Thayer's webpage, applying theoretical knowledge to real-world practice.
+            </p>
+            <p>
+                Chinatown on Thayer, a popular Chinese fast-food restaurant in Providence, RI, attracts locals with its affordability, convenience, and taste. 
+                Yet, its webpage suffers from poor design, with issues like a chaotic attention hierarchy and redundant features. 
+                A redesign will enhance online presentation, effectively reaching and expanding its customer base beyond the local community.
+            </p>
+        </div>
+        <h4>
+            Original webpage link: <a href="https://www.chinatownonthayer.com/index.php" target="_blank">https://www.chinatownonthayer.com/index.php</a>
+        </h4>
+        <h4>
+            Redesigned webpage link: <a href="https://felixyifeiwang.github.io/chinatown-redesign/" target="_blank">https://felixyifeiwang.github.io/chinatown-redesign/</a>
+        </h4>
+    </div>
+    <div class="section-divider"></div>
+    <div>
+        <h2>
+            Part 1: Identifying Usability Problems 
+        </h2>
+        <h3>
+            Reasons to pick this page:
+        </h3>
+        <p>
+            I chose this website because it's chaotic and confusing at first glance. Meanwhile, it contains so many elements and is a highly interacEve webpage. 
+            So I think there can be many aspects to work on and it will be a valuable attempt.
+        </p>
+        <img src="1.png" alt="Original Page">
+        <div class="section-divider"></div>
+        <h3>
+            Finding Problems:
+        </h3>
+        <p>
+            <b>Efficiency:</b> The efficiency of this webpage is mediocre. As the official website of the restaurant, its primary functionality to frequent users is online ordering and new dish releases. While these functionalities are highlighted and were intentionally designed to capture attention, the interaction process is not ideal.
+        </p>
+        <p>
+            1.	There are multiple buttons that lead to the same online ordering page, which can be confusing even for frequent users. And when pressing these buttons, it leads to an ordering page built within a unpopular third-party platform rather than a widely-used one like Doordash. The users have to log in to this third-party platform to order the food.
+        </p>
+        <p>
+            2.	Newly released dishes are highlighted and centered (“WE NOW SERVE SUSHI”). But it’s styled like a button and it’s actually just a text block and not clickable. Users don’t have a place to view further information or images about the newly released dishes.
+        </p>
+        <p>
+            <b>Learnability:</b> Learnability is the biggest issue with this page. Its chaotic layout is extremely not friendly for new users. Primarily, the problems lay in its bad affordance and attention hierarchy.
+        </p>
+        <p>
+            1.	As mentioned above, the buttons and highlights are very poorly organized, which leads to low affordance. The two buttons labeled “ONLINE ORDERING” and “ORDER ONLINE!” actually lead to the exactly same page, and they can be easily confused with another button “ORDER DELIVERY”, while the former two means order a pickup and the latter one means the delivery order. Also, we see “WE NOW SERVE SUSHI”, “WE DELIVER”, “ORDER ONLINE!”, and “ORDER DELIVERY” use the same style despite different colors, but actually only the latter two are buttons and the former two are just highlighted text blocks. These designs are counterintuitive and not user-friendly.
+        </p>
+        <p>
+            2.	The page is full of images, colors, different shapes, and grouping, but they are not organized nicely so the attention hierarchy is chaotic. While the address and pictures of the dishes in the center definitely capture users’ first attention, the upper buttons, the logo, and social media links are all attention-capturing and can be very frustrating to navigate through.
+        </p>
+        <p>
+            <b>Memorability:</b> For the same reasons mentioned above, problems such as button links, styles, layout, etc. also make it less memorable for casual users. Especially the fact that the button-like text blocks are live-updating, it’s likely to be difficult to use for a casual user returning to this page because of not knowing where to click.
+        </p>
+        <p>
+            <b>Conceptual model:</b> Although the issues are obvious, the builder of the webpage still knows which parts are important and the need to emphasize them. Which means they do have clear intentions and implications in their conceptual model. The problem is because of the poor design, the conceptual model is completely mismatched with the users’ mental model.
+        </p>
+        <div class="section-divider"></div>
+        <h3>
+            Accessibility:
+        </h3>
+        <p>
+            WebAIM WAVE mainly suggests contrast errors, which I do agree mostly, especially the text with rectangle solid color blocks. There is an orange title on a white background below which is also suggested as a contrast error, but I think it looks ok. It’s also alerting the redundant link issue as I mentioned above.
+        </p>
+        <img src="2.png" alt="WebAIM WAVE">
+    </div>
+    <div class="section-divider"></div>
+    <div>
+        <h2>
+            Part 2: Visual Redesign
+        </h2>
+        <h3>
+            Speed sketching:
+        </h3>
+        <p>
+            To let the redesign solve identified problems, I first brainstormed possible frames.    
+        </p>
+        <img src="3.jpg" alt="Speed sketching">
+        <div class="section-divider"></div>
+        <h3>
+            Final sketch:
+        </h3>
+        <p>
+            Then I combined the advantages of various ideas during the last phase and drew a final sketch.
+        </p>
+        <img src="4.jpg" alt="Final sketch">
+        <div class="section-divider"></div>
+        <h3>
+            Low-fidelity wireframing:
+        </h3>
+        <p>
+            Based on the sketch, I created the different device sizes LoFi wireframes.
+        </p>
+        <b>Desktop:</b>
+        <img src="5.png" alt="Desktop">
+        <b>Tablet:</b>
+        <img src="6.png" alt="Tablet">
+        <b>Mobile:</b>
+        <img src="7.png" alt="Mobile">
+        <div class="section-divider"></div>
+        <h3>
+            Visual Design Style Guide:
+        </h3>
+        <p>
+            The visual style guide is largely decided based on the original designs of the restaurant (e.g. their logo, theme color, etc.) 
+            But the number of colors and fonts is reduced and icons are unified to enhance user experience.
+        </p>
+        <img src="8.png" alt="Style Guide">
+        <div class="section-divider"></div>
+        <h3>
+            High-Fidelity Mockup: 
+        </h3>
+        <p>
+            Combining the style guide and previous wireframes, HiFi mockups are created. These are the final reference for the webpage development process.
+        </p>
+        <img src="9.png" alt="HiFi">
+
+    </div>
+    <div class="section-divider"></div>
+    <div>
+        <h2>
+            Part 3: Responsive Redesign
+        </h2>
+        <p>
+            Here's a short video demonstrating the final UIUX designs and responsive adaptability. 
+        </p>
+        <video width="320" height="240" controls>
+            <source src="10.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+    </div>
+    <div class="section-divider"></div>
+    <div>
+        <h2>
+            Part 4: Conclusions & Takeaways
+        </h2>
+        <p>
+            Through this redesign, I gained valuable experience in applying design principles.
+            Despite having a reference, building the page from scratch was a rewarding journey.
+        </p>
+        <p>
+            -   Transforming a design concept into a tangible product always creates unexpected challenges. 
+        </p>
+        <p>
+            -   Responsive features are necessary.
+        </p>
+        <p>
+            -   The aesthetic is the least priority.
+        </p>
+        <p>
+            -   Start building early so that issues will be found early too.
+        </p>
+    </div>
+</body>
+</html>
